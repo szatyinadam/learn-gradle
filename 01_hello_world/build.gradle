@@ -1,0 +1,8 @@
+task helloWorld{
+	println 'hello world'
+}
+
+task greet(group : "Dummies", description : "Greet the user.", dependsOn: helloWorld){
+	logger.warn 'Hi again!'
+	logger.log LogLevel.INFO, 'Logging again in info mode'
+}

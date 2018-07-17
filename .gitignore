@@ -1,0 +1,10 @@
+.gradle
+**/gradle/wrapper
+.idea
+.vscode
+.settings
+.project
+.classpath
+build
+bin
+.DS_Store
